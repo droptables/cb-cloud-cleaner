@@ -6,3 +6,11 @@ CB-Cloud-Cleaner takes a sensor group ID and X days amount to remove those senso
 I found this particularly useful for cleaning up my AWS sensors.
 
 Hope this helps :)
+
+usage:
+
+./cloud-cleaner.py -c cb-server.config -do 10 -gid 5
+
+-c = CB server config file
+-do = days offline
+-gid = groupID 
